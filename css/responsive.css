@@ -1,0 +1,269 @@
+/* // No media query for `xs` since this is the default in Bootstrap
+// X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575px) {
+
+    /* HEADER PART HERE */
+
+    .phone {
+        display: none;
+    }
+
+    .banner {
+        height: auto;
+        text-align: center;
+    }
+    .banner_txt h2 {
+        padding-top: 75px;
+        font-size: 45px;
+        text-align: center;
+    }
+    .navbar-toggler{
+        border: 1px solid black;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        background-color: black;
+    }
+    .navbar-nav .nav-item{
+        margin-top: 20px;
+    }
+    .navbar-nav .nav-item .nav-link{
+        padding: 5px 0px;
+    }
+
+    .banner_txt h2 {
+        padding-top: 55px;
+        font-size: 50px;
+        text-align: center;
+    }
+    .banner_txt p {
+        font-size: 10px;
+        padding: 5px 0px;
+    }
+
+    .banner_txt ul {
+        display: flex;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .banner_txt ul li {
+        padding: 21px;
+    }
+    
+    /* HEADER PART END HERE */
+
+
+    /* FRATURE PART HERE */
+
+    .feature {
+        height: auto;
+    }
+    .same {
+        margin: 40px 0px 25px;
+        text-align: center;
+    }
+    .icon ul {
+        padding: 0;
+    }
+    .header{
+        padding: 80px 0px 45px;
+    }
+
+    /* FRATURE PART END HERE */
+
+
+    /* footer part here */
+
+    .footer_hed input {
+        padding: 10px 70px 10px 20px;
+        border: 1px solid black;
+    }
+
+    .footer_hed label {
+
+        padding: 6px 15px;
+        font-size: 10px;
+    }
+
+    .footer_hed ul {
+        padding: 0;
+    }
+
+    .footer_hed ul li{
+        padding: 55px ​15px 30px;
+    }
+    .footer_hed ul li a i {
+        font-size: 28pt;
+    }
+
+    .footer{
+        height: auto;
+    }
+
+    .footer_hed p {
+        font-size: 15px;
+    }
+
+    .footer_land{
+        display: none;
+    }
+    .footer_land.footer_alin p{
+        font-size: 10px;
+    }
+
+    .footer_land.footer_alin{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    footer p{
+        font-size: 10px;
+    }
+    /* footer part end here */
+
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+        /* HEADER PART HERE */
+
+        .phone {
+            display: none;
+        }
+    
+        .banner {
+            height: auto;
+            text-align: center;
+        }
+        .banner_txt h2 {
+            padding-top: 75px;
+            font-size: 45px;
+            text-align: center;
+        }
+        .navbar-toggler{
+            border: 1px solid black;
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+            background-color: black;
+        }
+        .navbar-nav .nav-item{
+            margin-top: 20px;
+        }
+        .navbar-nav .nav-item .nav-link{
+            padding: 5px 0px;
+        }
+    
+        .banner_txt h2 {
+            padding-top: 55px;
+            font-size: 50px;
+            text-align: center;
+        }
+        .banner_txt p {
+            font-size: 10px;
+            padding: 5px 0px;
+        }
+    
+        .banner_txt ul {
+            display: flex;
+            padding: 0;
+            justify-content: center;
+        }
+    
+        .banner_txt ul li {
+            padding: 21px;
+        }
+        
+        /* HEADER PART END HERE */
+    
+    
+        /* FRATURE PART HERE */
+    
+        .feature {
+            height: auto;
+        }
+        .same {
+            margin: 40px 0px 25px;
+            text-align: center;
+        }
+        .icon ul {
+            padding: 0;
+        }
+        .header{
+            padding: 80px 0px 45px;
+        }
+    
+        /* FRATURE PART END HERE */
+    
+    
+        /* footer part here */
+    
+        .footer_hed input {
+            padding: 10px 70px 10px 20px;
+            border: 1px solid black;
+        }
+    
+        .footer_hed label {
+    
+            padding: 6px 15px;
+            font-size: 10px;
+        }
+    
+        .footer_hed ul {
+            padding: 0;
+        }
+    
+        .footer_hed ul li{
+            padding: 55px ​15px 30px;
+        }
+        .footer_hed ul li a i {
+            font-size: 28pt;
+        }
+    
+        .footer{
+            height: auto;
+        }
+    
+        .footer_hed p {
+            font-size: 15px;
+        }
+    
+        .footer_land{
+            display: none;
+        }
+        .footer_land.footer_alin p{
+            font-size: 10px;
+        }
+    
+        .footer_land.footer_alin{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        footer p{
+            font-size: 10px;
+        }
+        /* footer part end here */
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+        /* Default Done */
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    ...
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    ...
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    ...
+}

@@ -1,0 +1,197 @@
+/* FONT LNIK HERE */
+
+@import url(https://fonts.googleapis.com/css2?family=PT+Sans:wght@100;200;300;400;500;600;700&display=swap);
+
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+ ul li{
+     list-style: none;
+ }
+/* FONT LNIK END HERE */
+
+.banner{
+    background: url(../img/banner.png);
+    height: 650px;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #E74365;
+}
+.navbar-nav .nav-item .nav-link{
+    color: black;
+    font-weight: 700;
+    padding-right: 45px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+/* BANNER PART HERE */
+
+.banner_txt h2{
+    font-weight: 600;
+    padding-top: 90px;
+}
+.banner_txt h6{
+    font-weight: 500;
+    font-size: 13pt;
+    padding: 15px 0;
+    margin: 0;
+}
+.banner_txt p{
+    padding-right: 77px;
+    color: #8d8144;
+}
+.banner_txt ul{
+    display: flex;
+    padding: 0;
+}
+.banner_txt ul li{
+    padding: 20px 40px 20px 0px;
+
+}
+.banner_txt ul li a i{
+    font-size: 60px;
+    color: black;
+}
+
+.phone{
+    height: 450px;
+    margin: 40px 0px 0px 235px;
+}
+/* BANNER PART END HERE */
+
+
+
+/* FEATURES PART HERE */
+
+.feature{
+    color: white;
+    height: 650px;
+}
+.feature_app{
+
+}
+.header {
+    text-align: center;
+    padding: 65px 0px 30px;
+}
+.header h2{
+    color: black;
+}
+.header p{
+    color: #000;
+}
+.icon{
+    padding-top: 30px;
+}
+.icon ul {
+    padding: 0px 32px 0px 0px;
+}
+.icon ul li{
+    padding-bottom: 10px;
+}
+.icon ul li a i{
+    font-size: 60px;
+    color: #000;
+}
+.txt{
+
+}
+.txt h5{
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    padding-bottom: 20px;
+    margin: 0;
+}
+.txt p{
+    font-size: 15px;
+    color: rgb(83, 83, 83);
+    font-family: 'PT Sans', sans-serif;
+}
+.same {
+    margin: 40px 0px 25px;
+}
+
+
+/* hover part here */
+
+.feature_app:hover{
+    box-shadow:2px 2px 50px rgba(128, 128, 128, 0.5); 
+    transition: all linear 0.3s;
+}
+.feature_app:hover .icon ul li a i{
+    color: #ffe000;
+    transition: all linear 0.3s;
+}
+
+/* hover part end here */
+/* FEATURES PART END HERE */
+
+
+
+/* FOOTER PART START HERE */
+
+.footer{
+    background-color: black;
+    height: 530px;
+}
+
+.footer_hed {
+    text-align: center;
+    padding: 65px 0px 30px;
+}
+.footer_hed h2{
+    color: yellow;
+    font-family: 'PT Sans', sans-serif;
+}
+.footer_hed p{
+    color: #a9b7c3;
+}
+
+.footer_hed input{
+    padding: 10px 250px 10px 20px;
+    border-radius: 5px;
+}
+.footer_hed label{
+    margin-top: 20px;
+    padding: 11px 20px;
+    background-color: yellow;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.footer_hed ul {
+    display: flex;
+    justify-content: center;
+}
+.footer_hed ul li{
+    padding: 35px 15px;
+}
+.footer_hed ul li a i{
+    color: yellow;
+    font-size: 32pt;
+}
+.footer_land p{
+    color: white;
+    font-size: 14px;
+}
+.footer_land a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+}
+footer {
+    background-color: rgb(34, 34, 34);
+    height: 40px
+}
+footer p{
+    text-align: center;
+    color: white;
+    margin: 0;
+    line-height: 40px;
+}
+
+/* FOOTER PART END HERE */
